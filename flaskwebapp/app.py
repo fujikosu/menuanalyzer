@@ -2,6 +2,7 @@ from flask import render_template, request, jsonify, Flask
 import http.client, urllib.request, urllib.parse, urllib.error, base64
 import json
 import requests
+import os
 
 app = Flask(__name__)
 
@@ -20,7 +21,7 @@ def analyze():
             # Request headers
             # 'Content-Type': 'application/json',
             'Content-Type': 'application/octet-stream',
-            'Ocp-Apim-Subscription-Key': SUBSCRIPTION_KEY,
+            'Ocp-Apim-Subscription-Key': os.getenv('SUBSCRIPTION_KEY'),
         }
 
         params = urllib.parse.urlencode({
