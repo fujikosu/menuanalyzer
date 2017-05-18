@@ -20,6 +20,25 @@ def getlists():
         return json.dumps(json_of_name_and_imageURL)
 
 
+@app.route("/api/getlistsmultipart", methods=["POST"])
+def getlistsmultipart():
+    # Upload an image to blob storage
+    if request.method == "POST":
+        if 'file' not in request.files:
+            return 'No file part'
+        # if user does not select file, browser also
+        # submit a empty part without filename
+        if file.filename == '':
+            return 'No selected file'
+        # if file:
+        #  and allowed_file(file.filename):
+        #     filename = secure_filename(file.filename)
+        upload_file = request.files['file']        
+        img = upload_file.read()
+        list_of_menuname = ocr_into_list_of_menu_name(img)
+        json_of_name_and_imageURL = get_set_name_image_url(list_of_menuname)
+        return json.dumps(json_of_name_and_imageURL)
+
 def ocr_into_list_of_menu_name(img):
     # Use Computer Vision API
     headers = {
@@ -36,6 +55,10 @@ def ocr_into_list_of_menu_name(img):
     })
 
     res = requests.post(url='https://westus.api.cognitive.microsoft.com/vision/v1.0/ocr', data=img, headers=headers, params=params)
+    # debug_file = open("debug_file.txt","w") 
+    # debug_file.write(res.text) 
+    # debug_file.close()
+
     list_of_menuname = parse_to_list_of_menuname(res.json())
     return list_of_menuname
 
@@ -52,7 +75,8 @@ def parse_to_list_of_menuname(ocr_json):
 
 def get_set_name_image_url(list_of_menuname):
     endpoint = 'https://api.cognitive.microsoft.com/bing/v5.0/images/search'
-    headers = { 'Ocp-Apim-Subscription-Key': os.getenv(SUBSCRIPTION_KEY_IMAGE_SEARCH) }
+    headers = { 'Ocp-Apim-Subscription-Key': os.getenv('SUBSCRIPTION_KEY_IMAGE_SEARCH') }
+    # headers = { 'Ocp-Apim-Subscription-Key': SUBSCRIPTION_KEY_IMAGE_SEARCH }
     menu_image_set = {"menus": []}
     for query in list_of_menuname:
         params = {
