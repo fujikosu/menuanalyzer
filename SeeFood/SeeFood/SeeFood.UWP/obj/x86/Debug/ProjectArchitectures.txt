@@ -1,0 +1,1 @@
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\SeeFood.UWP.csproj;x86
