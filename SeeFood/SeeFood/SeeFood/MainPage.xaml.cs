@@ -19,36 +19,5 @@ namespace SeeFood
 			InitializeComponent();
 		}
 
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            TakePhoto();
-        }
-
-        public static byte[] ReadFully(Stream input)
-        {
-            using (MemoryStream ms = new MemoryStream())
-            {
-                input.CopyTo(ms);
-                return ms.ToArray();
-            }
-        }
-
-        public static byte[] StreamToByteArray(Stream stream)
-        {
-            if (stream is MemoryStream)
-            {
-                return ((MemoryStream)stream).ToArray();
-            }
-            else
-            {
-                // Jon Skeet's accepted answer 
-                return ReadFully(stream);
-            }
-        }
-
-        private async void TakePhoto()
-        {
-            
-        }
     }
 }

@@ -11,13 +11,13 @@
 namespace SeeFood {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood\\DishListV" +
-        "iew.xaml")]
-    public partial class DishListView : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood\\ListViewP" +
+        "age1.xaml")]
+    public partial class ListViewPage1 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DishListView));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListViewPage1));
         }
     }
 }

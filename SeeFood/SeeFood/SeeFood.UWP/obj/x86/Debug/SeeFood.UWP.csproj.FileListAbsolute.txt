@@ -144,7 +144,6 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.MainPage.xaml.g.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.App.xaml.g.cs
-C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.DishList.xaml.g.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.exe
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.pdb
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\ResourceHandlingTask.state
@@ -223,7 +222,6 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.DishListView.xaml.g.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.csprojResolveAssemblyReference.cache
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Console.dll
