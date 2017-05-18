@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T19:37:45.637</Modified>
+      <Modified>2017-05-18T23:24:28.297</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\SeeFood.UWP.exe">
       <PackagePath>entrypoint\SeeFood.UWP.exe</PackagePath>
-      <Modified>2017-05-18T19:37:45.249</Modified>
+      <Modified>2017-05-18T23:24:26.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\papaitha\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -701,11 +701,11 @@
     <AppxPackagedFile Include="C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T19:32:16.193</Modified>
+      <Modified>2017-05-18T23:24:27.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Core\SeeFood.UWP.exe">
       <PackagePath>SeeFood.UWP.exe</PackagePath>
-      <Modified>2017-05-18T19:37:45.633</Modified>
+      <Modified>2017-05-18T23:24:28.289</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

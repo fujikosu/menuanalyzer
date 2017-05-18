@@ -4,10 +4,50 @@
              xmlns:local="clr-namespace:SeeFood"
              x:Class="SeeFood.MainPage">
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-	<Label Text="SeeFood! Please click Take Photo to continue..." 
+        <Label Text="SeeFood! Please click Take Photo to continue..." 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
         <Button Clicked="Button_Clicked" Text="Take Photo"></Button>
+
+        <ActivityIndicator x:Name="myActivityIndicator" IsVisible="False" IsRunning="False" />
+        <ListView x:Name="MyList" RowHeight="150">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"></RowDefinition>
+                                <RowDefinition Height="150"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Row="0" Grid.RowSpan="2"  Source="{Binding contentURL}" Aspect="AspectFill"/>
+                            <Label Grid.Row="0" Grid.Column="0" Margin="10,0,0,0" Text="{Binding name}" BackgroundColor="#60000000" TextColor="White"
+                                   LineBreakMode="TailTruncation"></Label>
+                        </Grid>
+
+                        <!--
+                          <Grid Padding="5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="25"></RowDefinition>
+                                <RowDefinition Height="25"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="100"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding name}" LineBreakMode="TailTruncation"></Label>
+                            <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Source="{Binding contentURL}" Aspect="AspectFill"/>
+                        </Grid>
+                        
+                        -->
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>
