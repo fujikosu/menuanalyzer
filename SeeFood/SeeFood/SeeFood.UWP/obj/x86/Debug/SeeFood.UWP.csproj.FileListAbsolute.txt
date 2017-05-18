@@ -130,7 +130,6 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.csprojResolveAssemblyReference.cache
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\App.g.i.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\App.g.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\MainPage.g.i.cs
@@ -221,3 +220,5 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
