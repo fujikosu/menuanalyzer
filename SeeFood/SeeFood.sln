@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SeeFood\SeeFood\SeeFood.projitems*{09afab9f-b7ac-4e40-8c2b-b8efa4237545}*SharedItemsImports = 4
 		SeeFood\SeeFood\SeeFood.projitems*{3104af22-7570-4bc5-b3b4-461afe0e54e5}*SharedItemsImports = 13
+		SeeFood\SeeFood\SeeFood.projitems*{8b1dd692-595c-418c-acfa-91069453b5a5}*SharedItemsImports = 4
 		SeeFood\SeeFood\SeeFood.projitems*{c5af88ae-668b-4625-9e5d-35a561880c00}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

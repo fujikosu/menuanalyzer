@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SeeFood"
              x:Class="SeeFood.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!" 
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+	<Label Text="SeeFood! Please click Take Photo to continue..." 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+        <Button Clicked="Button_Clicked" Text="Take Photo"></Button>
+    </StackLayout>
 
 </ContentPage>
