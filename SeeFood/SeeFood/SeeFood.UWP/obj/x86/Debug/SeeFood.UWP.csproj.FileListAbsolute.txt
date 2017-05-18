@@ -9,6 +9,8 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Core\SeeFood.UWP.exe
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\SeeFood.UWP.build.appxrecipe
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Microsoft.CSharp.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Core.dll
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.dll
@@ -142,6 +144,7 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.MainPage.xaml.g.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.App.xaml.g.cs
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.DishList.xaml.g.cs
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.exe
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.pdb
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\ResourceHandlingTask.state
@@ -220,5 +223,16 @@ C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
-C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.C_.Users.papaitha.Documents.GitHub.menuanalyzer.SeeFood.SeeFood.SeeFood.DishListView.xaml.g.cs
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\SeeFood.UWP.csprojResolveAssemblyReference.cache
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Console.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.ComponentModel.Primitives.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\bin\x86\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\FxResources.System.Console.SR.resw
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\FxResources.System.ComponentModel.Primitives.SR.resw
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\FxResources.System.ComponentModel.TypeConverter.SR.resw
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\FxResources.System.Runtime.InteropServices.RuntimeInformation.SR.resw
+C:\Users\papaitha\Documents\GitHub\menuanalyzer\SeeFood\SeeFood\SeeFood.UWP\obj\x86\Debug\FxResources.System.Runtime.Serialization.Formatters.SR.resw
