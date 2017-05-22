@@ -26998,14 +26998,14 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\papaitha\\.nuget\\packages\\": {}
+    "C:\\Users\\yserhane\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood.UWP\\SeeFood.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\yserhane\\Source\\Repos\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood.UWP\\SeeFood.UWP.csproj",
       "projectName": "SeeFood.UWP",
-      "projectPath": "C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood.UWP\\SeeFood.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood.UWP\\project.json",
+      "projectPath": "C:\\Users\\yserhane\\Source\\Repos\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood.UWP\\SeeFood.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\yserhane\\Source\\Repos\\menuanalyzer\\SeeFood\\SeeFood\\SeeFood.UWP\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
