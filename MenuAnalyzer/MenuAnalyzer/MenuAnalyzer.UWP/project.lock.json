@@ -24176,6 +24176,7 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
       "Newtonsoft.Json >= 10.0.2",
       "System.Net.Http >= 4.3.2",
+      "System.Xml.XDocument >= 4.3.0",
       "Xam.Plugin.Media >= 2.6.2",
       "Xamarin.Forms >= 2.3.4.224"
     ],
@@ -24186,16 +24187,17 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\papaitha\\Documents\\Visual Studio 2017\\Projects\\MenuAnalyzer\\MenuAnalyzer\\MenuAnalyzer.UWP\\MenuAnalyzer.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\MenuAnalyzer\\MenuAnalyzer\\MenuAnalyzer.UWP\\MenuAnalyzer.UWP.csproj",
       "projectName": "MenuAnalyzer.UWP",
-      "projectPath": "C:\\Users\\papaitha\\Documents\\Visual Studio 2017\\Projects\\MenuAnalyzer\\MenuAnalyzer\\MenuAnalyzer.UWP\\MenuAnalyzer.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\papaitha\\Documents\\Visual Studio 2017\\Projects\\MenuAnalyzer\\MenuAnalyzer\\MenuAnalyzer.UWP\\project.json",
+      "projectPath": "C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\MenuAnalyzer\\MenuAnalyzer\\MenuAnalyzer.UWP\\MenuAnalyzer.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\papaitha\\Documents\\GitHub\\menuanalyzer\\MenuAnalyzer\\MenuAnalyzer\\MenuAnalyzer.UWP\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
       "Newtonsoft.Json": "10.0.2",
       "System.Net.Http": "4.3.2",
+      "System.Xml.XDocument": "4.3.0",
       "Xam.Plugin.Media": "2.6.2",
       "Xamarin.Forms": "2.3.4.224"
     },

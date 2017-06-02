@@ -29,6 +29,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.config" />
+    <None Include="$(MSBuildThisFileDirectory)App.config" />
   </ItemGroup>
 </Project>
