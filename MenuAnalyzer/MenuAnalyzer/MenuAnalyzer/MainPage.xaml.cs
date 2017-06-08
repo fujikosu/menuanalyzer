@@ -48,24 +48,32 @@ namespace MenuAnalyzer
                 {
                     using (var content = new MultipartFormDataContent())
                     {
-                        content.Add(new StreamContent(file.GetStream()), "file", "1.jpg");
+                        byte[] filedata = await (new StreamContent(file.GetStream())).ReadAsByteArrayAsync();
 
-                        using (var message = await client.PostAsync(SettingsReader.GetKey("url"), content))
+                        var fileContent = new ByteArrayContent(filedata);
+
+                        using (var message = await client.PostAsync(SettingsReader.GetKey("url"), fileContent))
                         {
                             try
                             {
-                                var input = await message.Content.ReadAsStringAsync();
-                                MyList.ItemsSource = Newtonsoft.Json.JsonConvert.DeserializeObject<MenuItems>(input).menus;
+                                string input = await message.Content.ReadAsStringAsync();
+
+                                input = input.Substring(1, input.Length - 2);
+                                input = input.Replace("\\", "");
+
+                                MenuItems mi = Newtonsoft.Json.JsonConvert.DeserializeObject<MenuItems>(input);
+
+                                MyList.ItemsSource = mi.menus;
                                 MyList.IsVisible = true;
 
                                 myActivityIndicator.IsRunning = false;
                                 myActivityIndicator.IsVisible = false;
                             }
-                            catch
+                            catch (Exception ex)
                             {
                                 myActivityIndicator.IsRunning = false;
                                 myActivityIndicator.IsVisible = false;
-                                await DisplayAlert("Error", "No text was detected try taking a new picture", "Ok");
+                                await DisplayAlert("Error", "No text was detected or there was a parsing error, please try again!", "Ok");
                             }
                         }
                     }

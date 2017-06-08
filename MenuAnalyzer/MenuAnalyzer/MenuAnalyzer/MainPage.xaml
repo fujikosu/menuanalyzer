@@ -20,7 +20,7 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                            <Image Grid.Row="0" Grid.RowSpan="2"  Source="{Binding contentURL}" Aspect="AspectFill"/>
+                            <Image Grid.Row="0" Grid.RowSpan="2"  Source="{Binding contentURL}" Aspect="AspectFill" />
                             <Label Grid.Row="0" Grid.Column="0" Margin="10,0,0,0" Text="{Binding name}" BackgroundColor="#60000000" TextColor="White"
                                    LineBreakMode="TailTruncation"></Label>
                         </Grid>
