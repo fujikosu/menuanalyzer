@@ -69,7 +69,7 @@ namespace MenuAnalyzer
                                 myActivityIndicator.IsRunning = false;
                                 myActivityIndicator.IsVisible = false;
                             }
-                            catch (Exception ex)
+                            catch
                             {
                                 myActivityIndicator.IsRunning = false;
                                 myActivityIndicator.IsVisible = false;
@@ -84,6 +84,11 @@ namespace MenuAnalyzer
         private void Clear_Clicked(object sender, EventArgs e)
         {
             MyList.IsVisible = false;
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new FullImage(((Image)sender).Source));
         }
     }
 }

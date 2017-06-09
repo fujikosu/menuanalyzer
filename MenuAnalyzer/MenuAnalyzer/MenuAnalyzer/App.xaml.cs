@@ -13,8 +13,9 @@ namespace MenuAnalyzer
 		{
 			InitializeComponent();
 
-			MainPage = new MenuAnalyzer.MainPage();
-		}
+            //MainPage = new MenuAnalyzer.MainPage();
+            MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{
